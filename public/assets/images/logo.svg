@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Circular border -->
+  <circle cx="250" cy="250" r="240" fill="#f0f8ff" stroke="#386d8b" stroke-width="15" />
+  
+  <!-- Planet with rings -->
+  <circle cx="250" cy="230" r="70" fill="#64b5f6" />
+  <ellipse cx="250" cy="230" rx="120" ry="30" fill="none" stroke="#64b5f6" stroke-width="6" />
+  
+  <!-- Little stars and dots -->
+  <circle cx="180" cy="160" r="8" fill="#64b5f6" />
+  <circle cx="315" cy="220" r="8" fill="#64b5f6" />
+  <circle cx="260" cy="320" r="8" fill="#64b5f6" />
+  <circle cx="150" cy="240" r="5" fill="#64b5f6" />
+  
+  <!-- Small sparkle/diamond -->
+  <polygon points="175,120 185,130 175,140 165,130" fill="#64b5f6" />
+  
+  <!-- Small connected dots -->
+  <circle cx="320" cy="290" r="3" fill="#64b5f6" />
+  <circle cx="340" cy="310" r="3" fill="#64b5f6" />
+  <line x1="320" y1="290" x2="340" y2="310" stroke="#64b5f6" stroke-width="2" />
+  
+  <!-- Text KIDSMENTOR -->
+  <text x="250" y="400" font-family="Arial, sans-serif" font-size="45" font-weight="bold" text-anchor="middle" fill="#386d8b">KIDSMENTOR</text>
+  
+  <!-- Text EDUCATION PORTAL -->
+  <text x="250" y="435" font-family="Arial, sans-serif" font-size="25" text-anchor="middle" fill="#64b5f6">EDUCATION PORTAL</text>
+</svg> 
