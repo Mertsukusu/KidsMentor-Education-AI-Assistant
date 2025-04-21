@@ -4,39 +4,50 @@ An interactive education portal for early childhood educators featuring AI-power
 
 ## Key Features
 
-### 1. Interactive Story Starter
+### 1. Dashboard
 
-Generate creative, age-appropriate story starters for children. Educators can select themes, age groups, and categories to get AI-generated prompts for storytelling activities.
+The KidsMentor dashboard provides an intuitive learning hub that features:
+
+- **Personalized Welcome:** Customized experience with student name and progress highlights
+- **Visual Progress Tracking:** Engaging charts and achievement badges show learning journey
+- **AI-Powered Recommendations:** Smart activity suggestions based on individual learning patterns
+- **Quick Access Tools:** Recently used features and "continue where you left off" functionality
+- **Intuitive Navigation:** Core features presented prominently with simplified interface
+- **Role-Based Views:** Tailored displays for students and educators with relevant controls
+- **Responsive Design:** Optimized for all devices from desktop to mobile
+- **Real-time Updates:** Progress tracking updates in real-time as students complete activities
+- **Customizable Widgets:** Educators can personalize dashboard layout for their teaching style
+
+![Dashboard Screenshot](public/assets/images/dashboard-screenshot.jpg)
+_The dashboard provides a comprehensive overview of student progress and learning activities._
 
 ### 2. AI-Powered Personal Tutor
 
 Provides personalized lesson content across all subjects including Math, Science, Reading, Social Studies, and Art & Music. The tutor adapts content based on student performance and learning objectives.
 
-### 3. Daily Activity Logger
+![AI Tutor Screenshot](public/assets/images/ai-tutor-screenshot1.jpg)
+_The AI Tutor interface allows students to ask questions and receive personalized guidance powered by Google Gemini Flash 2.0._
+
+AI-Powered ChatBot! This Functionality is in AI Tutor feature
+
+![ChatBot Screenshot](public/assets/images/AI-Chat-SS.jpg)
+
+### 3. Story Starter
+
+The Story Starter tool helps educators generate creative prompts for storytelling activities tailored to different age groups and themes. Generate creative, age-appropriate story starters for children. Educators can select themes, age groups, and categories to get AI-generated prompts for storytelling activities.
+![Story Generation Screenshot](public/assets/images/story-starter-screenshot.jpg)
+
+### 4. Daily Activity Logger
 
 Record and track classroom activities, milestones, and learning outcomes.
-
-## Screenshots
-
-### Dashboard
-
-The main dashboard provides quick access to all features with an overview of student progress.
-
-### AI Tutor
-
-![AI Tutor Screenshot](public/assets/images/ai-tutor-screenshot.jpg)
-_The AI Tutor interface allows students to ask questions and receive personalized guidance powered by Google Gemini Pro 2.0._
-
-### Story Starter
-
-The Story Starter tool helps educators generate creative prompts for storytelling activities tailored to different age groups and themes.
+![Daily Activity Screenshot](public/assets/images/activity-logs-screenshot.jpg)
 
 ## Architecture
 
 ### Backend
 
 - **FastAPI** framework for high-performance API endpoints
-- **Google Gemini Pro 2.0** AI model integration
+- **Google Gemini Flash 2.0** AI model integration
 - RESTful API architecture
 - PostgreSQL database for data persistence
 - Comprehensive error handling and logging
@@ -157,6 +168,19 @@ education-portal/
 │   └── services/           # Business logic
 └── ...
 ```
+
+### Gemini 2.0 Flash Integration
+
+- The backend now uses Gemini 2.0 Flash for improved AI response performance and quality
+- Updated environment configuration to support model customization
+- Added support for local environment overrides with `.env.local`
+
+### Learning Profile Enhancements
+
+- Added an "Apply Changes" button to the Learning Profile settings
+- Implemented a temporary profile state to prevent changes until explicitly applied
+- Added visual feedback when profile changes are successfully applied
+- Added persistence for user profiles via localStorage
 
 ## License
 
